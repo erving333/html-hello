@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.container-post {
+width: 500px;
+height: 600px;
+background-color: white;
+}
+
+.header-post {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-content > i{
+    color:cornflowerblue;
+}
+
+
+.image-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: solid black 1px ;
+}
+
+.icon-elip {
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-img > img {
+    width: 100%;
+}
+
+.icons-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-left {
+    gap: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.icon-right{
+    gap: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.info {
+   padding: 3px;
+}
+
+.main-text {
+    justify-content: center;
+    padding: 3px;
+}
