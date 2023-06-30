@@ -1,70 +1,29 @@
+.size {
+    width: 1300px;
+}
+
 body {
+    justify-content: center;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: black;
-    justify-content: center;
-    display: flex;
+    margin-top: 80px;
 }
 
-.container-post {
-width: 500px;
-height: 600px;
-background-color: white;
+.container-red {
+    width: 1450px;
 }
 
-.header-post {
-    display: flex;
-    justify-content: space-between;
-    
+.color-letter {
+    color: #56070c;
 }
 
-.header-content {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+i {
+    color: white;
 }
 
-.header-content > i{
-    color:cornflowerblue;
+.paybox-size {
+    width: 400px;
 }
 
-
-.image-1{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    border: solid black 1px ;
-}
-
-.icon-elip {
-    font-size: 30px;
-    margin: 5px;
-    padding: 5px;
-}
-
-.main-img > img {
-    width: 100%;
-}
-
-.icons-part{
-    display: flex;
-    justify-content: space-between;
-}
-
-.icon-left {
-    gap: 20px;
-    font-size: 20px;
-    padding: 5px;
-}
-.icon-right{
-    gap: 20px;
-    font-size: 20px;
-    padding: 5px;
-}
-
-.info {
-   padding: 3px;
-}
-
-.main-text {
-    justify-content: center;
-    padding: 3px;
-}
